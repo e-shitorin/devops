@@ -1,0 +1,9 @@
+CONTAINER ID   IMAGE         COMMAND                  CREATED          STATUS          PORTS                                     NAMES
+4e653441b210   nginx         "/docker-entrypoint.…"   40 minutes ago   Up 40 minutes   0.0.0.0:8093->80/tcp, [::]:8093->80/tcp   nginx3
+d1dd1eeadf4d   nginx         "/docker-entrypoint.…"   41 minutes ago   Up 41 minutes   0.0.0.0:8092->80/tcp, [::]:8092->80/tcp   nginx2
+6bb8d6e38fdb   nginx         "/docker-entrypoint.…"   41 minutes ago   Up 41 minutes   0.0.0.0:8091->80/tcp, [::]:8091->80/tcp   nginx1
+5fb4a0494834   my-nginx:v1   "/docker-entrypoint.…"   3 hours ago      Up 3 hours      0.0.0.0:8087->80/tcp, [::]:8087->80/tcp   my-nginx
+7f0f33972c84   nginx         "/docker-entrypoint.…"   4 hours ago      Up 3 hours      0.0.0.0:8083->80/tcp, [::]:8083->80/tcp   env_test
+c31777aefca8   nginx         "/docker-entrypoint.…"   4 hours ago      Up 4 hours      0.0.0.0:8090->80/tcp, [::]:8090->80/tcp   web3
+1728352cc4ed   nginx         "/docker-entrypoint.…"   4 hours ago      Up 4 hours      0.0.0.0:8086->80/tcp, [::]:8086->80/tcp   web2
+687521ddf465   nginx         "/docker-entrypoint.…"   4 hours ago      Up 4 hours      0.0.0.0:8084->80/tcp, [::]:8084->80/tcp   web
