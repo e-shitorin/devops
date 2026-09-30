@@ -1,0 +1,8 @@
+=== nginx1 ===
+Welcome to nginx1
+
+=== nginx2 ===
+Welcome to nginx2
+
+=== nginx3 ===
+Welcome to nginx3
