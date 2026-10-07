@@ -8,6 +8,8 @@ Dockerfile과 HTML을 수정하여 Guestbook을 커스터마이징하였다.
 - `THEME_COLOR` → `#7C3AED`
 - 빈 방명록 문구 수정
 
+![Guestbook V2](./screenshots/guestbook-v2.png)
+
 ### GHCR
 
 ```text
@@ -31,6 +33,8 @@ docker run -d -p 8083:5000 \
 
 `docker run -e`를 사용하면 Dockerfile의 기본 `ENV` 값보다
 실행 시 전달한 환경변수가 우선 적용된다.
+
+![ENV override](./screenshots/guestbook-env.png)
 
 ```text
 app.py 기본값 < Dockerfile ENV < docker run -e
@@ -76,6 +80,8 @@ CACHED [4/6] RUN pip install --no-cache-dir -r requirements.txt
 ```
 
 변경되지 않은 Layer는 Cache를 재사용하여 빌드 시간을 줄일 수 있다.
+
+![Docker Build Cache](./screenshots/docker-cache.png)
 
 ## 6. Git
 
