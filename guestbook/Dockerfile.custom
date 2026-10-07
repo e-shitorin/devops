@@ -1,0 +1,4 @@
+FROM ghcr.io/e-shitorin/guestbook:v2
+
+ENV APP_TITLE="Eldana Custom Guestbook" \
+    THEME_COLOR="#7C9A82"
