@@ -34,3 +34,9 @@ The guestbook entry disappeared because the Redis volume was removed and a new e
 ## 4. Why `.env` Must Not Be Pushed to Git
 
 The `.env` file contains environment variables and may contain passwords or other secrets. Pushing it to a public or shared repository could expose them. The `.env` file is ignored by Git; `.env.example` provides a template without the real password.
+
+## 5. Screenshots
+
+- [Container status](./screenshots/compose-ps.png)
+- [Load balancing — changing hostnames](./screenshots/load-balancing.png)
+- [Volume persistence test](./screenshots/volume-persistence.png)
