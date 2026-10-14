@@ -10,3 +10,4 @@
 - [4주차 - 자동화와 협업](./week04/)
 - [5주차 - Docker](./week05/)
 - [6주차 - Dockerfile과 GHCR 배포](./week06/)
+- [7주차 - Docker Compose](./week07/)
