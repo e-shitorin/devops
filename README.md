@@ -11,3 +11,4 @@
 - [5주차 - Docker](./week05/)
 - [6주차 - Dockerfile과 GHCR 배포](./week06/)
 - [7주차 - Docker Compose](./week07/)
+- [9주차 - Kubernetes 첫 배포](./week09/)
